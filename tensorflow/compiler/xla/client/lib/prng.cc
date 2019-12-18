@@ -15,6 +15,8 @@ limitations under the License.
 
 #include "tensorflow/compiler/xla/client/lib/prng.h"
 
+#define _USE_MATH_DEFINES
+#include <math.h>
 #include <cmath>
 
 #include "absl/base/casts.h"
