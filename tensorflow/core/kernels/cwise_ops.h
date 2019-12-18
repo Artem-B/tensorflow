@@ -17,6 +17,7 @@ limitations under the License.
 #define TENSORFLOW_CORE_KERNELS_CWISE_OPS_H_
 
 #define _USE_MATH_DEFINES
+#include <math.h>
 #include <cmath>
 #include <functional>
 #include <type_traits>
